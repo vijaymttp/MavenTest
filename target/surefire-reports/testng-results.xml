@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ScottsAndroid" duration-ms="30518" started-at="2016-02-26T12:45:41Z" finished-at="2016-02-26T12:46:12Z">
+    <groups>
+    </groups>
+    <test name="Maven" duration-ms="30518" started-at="2016-02-26T12:45:41Z" finished-at="2016-02-26T12:46:12Z">
+      <class name="scripts.com.test.MavenTest">
+        <test-method status="PASS" signature="oneTimeSetUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.com.test.MavenTest@5ba1cdb]" name="oneTimeSetUp" is-config="true" duration-ms="27573" started-at="2016-02-26T18:15:41Z" finished-at="2016-02-26T18:16:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SampleMaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Scotts=MAC::Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Inventory]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="scottsMyAccount()[pri:0, instance:scripts.com.test.MavenTest@5ba1cdb]" name="scottsMyAccount" duration-ms="44" started-at="2016-02-26T18:16:09Z" finished-at="2016-02-26T18:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scottsMyAccount -->
+        <test-method status="PASS" signature="oneTearDown()[pri:0, instance:scripts.com.test.MavenTest@5ba1cdb]" name="oneTearDown" is-config="true" duration-ms="2848" started-at="2016-02-26T18:16:09Z" finished-at="2016-02-26T18:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTearDown -->
+      </class> <!-- scripts.com.test.MavenTest -->
+    </test> <!-- Maven -->
+  </suite> <!-- ScottsAndroid -->
+</testng-results>

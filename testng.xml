@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ScottsAndroid" thread-count="1">
+	<parameter name="prjName" value="SampleMaven"></parameter>
+	<parameter name="instanceName" value="Android"></parameter>
+
+	<parameter name="sauceUser" value="Local"></parameter>
+	<parameter name="testSetName" value="Inventory"></parameter>
+	<parameter name="testEnvironment" value="Scotts=MAC::Android"></parameter>
+	<parameter name="moduleName" value="com.test"></parameter>
+
+      
+        <test name="Maven">
+              
+              <classes>
+                     <class name="scripts.com.test.MavenTest" />
+                     
+              </classes>
+       </test>   
+       
+       
+     
+</suite>
