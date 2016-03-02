@@ -187,8 +187,48 @@
 
 			</plugin>
 
-		</plugins>
-
+		
+		
+	<!-- New code Test -->	
+	
+	
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>xml-maven-plugin</artifactId>
+       
+        <configuration>
+        <mkdir dir="${java.io.tmpdir}output" /> 
+       
+          <transformationSets>
+            <transformationSet>
+              <dir>${java.io.tmpdir}target/surefire-reports/testng-results.xml</dir>
+              <stylesheet>/Users/IT-Satya/Desktop/workspace/JDSportsScottsAndroidNativeApp/ANT/1.9.5/bin/src/main/resources/testng-results.xsl</stylesheet>
+            </transformationSet>
+          </transformationSets>
+           <outputDir>${java.io.tmpdir}output/index.html</outputDir>
+        </configuration>
+      </plugin>
+    
+	
+	<!-- New code Test End -->	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</plugins>	
+		
+	
 	</build>
 
 	<!-- <reporting> <excludeDefaults>true</excludeDefaults> <plugins> <plugin> 
