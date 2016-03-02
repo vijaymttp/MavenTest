@@ -55,6 +55,9 @@ public class MavenTest {
 
 			System.out.println("Sample Maven Project");
 			oASelFW.effecta("sendReport", "Test ", "TestMaven","Pass");
+			oASelFW.effecta("sendReport", "Test1 ", "TestMaven1","Pass");
+			oASelFW.effecta("captureEntirePageScreenshot", "Test2",
+					"TestMaven2", "Pass");
 			// Final Validation Message
 			oGenerateFinalValidations = new GenerateFinalValidations(oASelFW);
 			oGenerateFinalValidations.setFinalValidationMsg("");
